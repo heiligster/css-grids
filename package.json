@@ -1,26 +1,25 @@
 {
-  "name": "css-grids",
+  "name": "css-wireframes",
   "version": "0.0.1",
-  "description": "Various CSS Grid Examples",
+  "description": "CSS Wireframes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heiligster/css-grids.git"
+    "url": "git+https://github.com/heiligster/css-wireframes.git"
   },
   "author": "Philipp Müller <heiligster@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/heiligster/css-grids/issues"
+    "url": "https://github.com/heiligster/css-wireframes/issues"
   },
-  "homepage": "https://github.com/heiligster/css-grids#readme",
+  "homepage": "https://github.com/heiligster/css-wireframes#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-html-build": "^0.5.3",
     "grunt-jade": "^0.5.1",
     "grunt-sass": "^1.2.0"
   }

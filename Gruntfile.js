@@ -8,9 +8,10 @@ module.exports = function (grunt) {
     jade: {
       html: {
         files: {
-          'dist/': ['src/*.jade']
+          'dist/': ['src/*.jade', 'src/pages/**/*.jade']
         },
         options: {
+          basePath: 'src/',
           client: false,
           pretty: true
         }
@@ -18,7 +19,10 @@ module.exports = function (grunt) {
     },
     browserSync: {
       bsFiles: {
-        src: [__dirname + '/dist/css/*.css', __dirname + '/dist/**/*.html']
+        src: [
+          __dirname + '/dist/css/*.css',
+          __dirname + '/dist/**/*.html'
+        ]
       },
       options: {
         watchTask: true,
@@ -33,7 +37,7 @@ module.exports = function (grunt) {
         tasks: ['sass']
       },
       jade: {
-        files: 'src/*.jade',
+        files: 'src/**/*.jade',
         tasks: ['jade']
       }
     },
